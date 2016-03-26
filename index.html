@@ -66,21 +66,23 @@ Do the following if you're using your customized build of modernizr (http://www.
 <script src="respond.min.js"></script>
 </head>
 <body>
-<div class="gridContainer clearfix">
-  <div id="LayoutDiv2"><b>Evacuation scenario - ordinary case</b></div><br>
-    <div class="text1"><b>1. Would you consider going downstairs to the closest refuge floor in order to use evacuation elevators and go directly to the ground floor?</b></div>
-    <div id="Paragraph"><div class="well">
-				<table class="grid" cellspacing="10">
+<div class="gridContainer clearefuge floorix">
+  <div id="LayoutDiv2"><b>Evacuation scenario - ordinary case</b></div>
+  	<div class="text3"><span><b>Announcement</b>: You are advised to evacuate from the building using either stairs or evacuation elevators from a refuge floor.</span></div>
+	<div class="text3"><span><b>Note</b>: A <b>refuge floor</b> prevents smoke spreading to the lower and upper parts of the building.</span></div>
+    <div id="Paragraph"><div class="text1"><b>1. Would you consider going downstairs to the closest refuge floor in order to use evacuation elevators and go directly to the ground floor?</b></div>
+    <div class="well" style="float: left;">
+				<table class="grid" cellspacing="10" style="float: left; width:80%">
 				 <tr>
 				   <td class="griditem1"><b>Case</b></td>
-				   <td class="griditem2"><b>Staying on stairs all the path</b></td>
-				   <td class="griditem3"><b>Floor 15</b></td>
-				   <td class="griditem3"><b>Floor 35</b></td>
-				   <td class="griditem3"><b>Floor 55</b></td>
-				   <td class="griditem2"><b>Going to the refuge floor regardless of floor height</b></td>
+				   <td class="griditem2"><b>No, Staying on stairs</b></td>
+				   <td class="griditem3b"><b>Yes, case floor 15</b></td>
+				   <td class="griditem3b"><b>Yes, case floor 35</b></td>
+				   <td class="griditem3b"><b>Yes, case floor 55</b></td>
+				   <td class="griditem2b"><b>Yes, going regardless of floor height</b></td>				   
 				 </tr>
 				 <tr>
-				   <td class="griditem" ><span style="vertical-align: top;">you are going <b>alone</b></span></td>
+				   <td class="griditema" ><span style="vertical-align: middle;"><b>A</b>. you are going <b>alone</b></span></td>
 				   <td class="cent"><input class="main1" type=checkbox  name="griditem1" value="1" style="vertical-align: top;"></td>
 				   <td class="cent"><input class="main1" type=checkbox  name="griditem1" value="2" style="vertical-align: top;"></td>
 				   <td class="cent"><input class="main1" type=checkbox  name="griditem1" value="3" style="vertical-align: top;"></td>
@@ -88,48 +90,49 @@ Do the following if you're using your customized build of modernizr (http://www.
 				   <td class="cent"><input class="main1" type=checkbox  name="griditem1" value="5" style="vertical-align: top;"></td>
 				 </tr>
 				 <tr>
-				   <td class="griditem"><br><span style="vertical-align: top;">you are with your <b>family</b></span></td>
-				   <td class="cent"><br><input class="main2" type=checkbox  name="griditem2" value="1" style="vertical-align: top;"></td>
-				   <td class="cent"><br><input class="main2" type=checkbox  name="griditem2" value="2" style="vertical-align: top;"></td>
-				   <td class="cent"><br><input class="main2" type=checkbox  name="griditem2" value="3" style="vertical-align: top;"></td>
-				   <td class="cent"><br><input class="main2" type=checkbox  name="griditem2" value="4" style="vertical-align: top;"></td>
-				   <td class="cent"><br><input class="main2" type=checkbox  name="griditem2" value="5" style="vertical-align: top;"></td>
+				   <td class="griditema"><span style="vertical-align: middle;"><b>B</b>. you are with your <b>family</b></span></td>
+				   <td class="cent"><input class="main2" type=checkbox  name="griditem2" value="1" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main2" type=checkbox  name="griditem2" value="2" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main2" type=checkbox  name="griditem2" value="3" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main2" type=checkbox  name="griditem2" value="4" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main2" type=checkbox  name="griditem2" value="5" style="vertical-align: top;"></td>
 				 </tr>
 				 <tr>
-				   <td class="griditem"><br><span style="vertical-align: top;">you are with people that you <b>know</b>, and they decided to go to the refuge floor</span></td>
-				   <td class="cent"><br><input class="main3" type=checkbox  name="griditem3" value="1" style="vertical-align: top;"></td>
-				   <td class="cent"><br><input class="main3" type=checkbox  name="griditem3" value="2" style="vertical-align: top;"></td>
-				   <td class="cent"><br><input class="main3" type=checkbox  name="griditem3" value="3" style="vertical-align: top;"></td>
-				   <td class="cent"><br><input class="main3" type=checkbox  name="griditem3" value="4" style="vertical-align: top;"></td>
-				   <td class="cent"><br><input class="main3" type=checkbox  name="griditem3" value="5" style="vertical-align: top;"></td>
+				   <td class="griditema"><span style="vertical-align: middle;"><b>C</b>. you are with people that you <b>know</b>, and they are deciding to go to the refuge floor</span></td>
+				   <td class="cent"><input class="main3" type=checkbox  name="griditem3" value="1" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main3" type=checkbox  name="griditem3" value="2" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main3" type=checkbox  name="griditem3" value="3" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main3" type=checkbox  name="griditem3" value="4" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main3" type=checkbox  name="griditem3" value="5" style="vertical-align: top;"></td>
 				 </tr>
 				 <tr>
-				   <td class="griditem" ><br><span style="vertical-align: top;">you are with people that you <b>do not know</b> and they are deciding to the refuge floor</span></td>
-				   <td class="cent"><br><input class="main4" type=checkbox  name="griditem4" value="1" style="vertical-align: top;"></td>
-				   <td class="cent"><br><input class="main4" type=checkbox  name="griditem4" value="2" style="vertical-align: top;"></td>
-				   <td class="cent"><br><input class="main4" type=checkbox  name="griditem4" value="3" style="vertical-align: top;"></td>
-				   <td class="cent"><br><input class="main4" type=checkbox  name="griditem4" value="4" style="vertical-align: top;"></td>
-				   <td class="cent"><br><input class="main4" type=checkbox  name="griditem4" value="5" style="vertical-align: top;"></td>
+				   <td class="griditema" ><span style="vertical-align: middle;"><b>D</b>. you are with people that you <b>do not know</b> and they are deciding to go the refuge floor</span></td>
+				   <td class="cent"><input class="main4" type=checkbox  name="griditem4" value="1" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main4" type=checkbox  name="griditem4" value="2" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main4" type=checkbox  name="griditem4" value="3" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main4" type=checkbox  name="griditem4" value="4" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main4" type=checkbox  name="griditem4" value="5" style="vertical-align: top;"></td>
 				 </tr>
 				 <tr>
-				   <td class="griditem" ><br><span style="vertical-align: top;"><b>a responsible person</b> is telling you to use evacuation elevators</span></td>
-				   <td class="cent"><br><input class="main5" type=checkbox  name="griditem5" value="1" style="vertical-align: top; "></td>
-				   <td class="cent"><br><input class="main5" type=checkbox  name="griditem5" value="2" style="vertical-align: top;"></td>
-				   <td class="cent"><br><input class="main5" type=checkbox  name="griditem5" value="3" style="vertical-align: top;"></td>
-				   <td class="cent"><br><input class="main5" type=checkbox  name="griditem5" value="4" style="vertical-align: top;"></td>
-				   <td class="cent"><br><input class="main5" type=checkbox  name="griditem5" value="5" style="vertical-align: top;"></td>
+				   <td class="griditema" ><span style="vertical-align: middle;"><b><b>E</b>. a responsible person</b> is telling you to use evacuation elevators from the refuge floor</span></td>
+				   <td class="cent"><input class="main5" type=checkbox  name="griditem5" value="1" style="vertical-align: top; "></td>
+				   <td class="cent"><input class="main5" type=checkbox  name="griditem5" value="2" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main5" type=checkbox  name="griditem5" value="3" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main5" type=checkbox  name="griditem5" value="4" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main5" type=checkbox  name="griditem5" value="5" style="vertical-align: top;"></td>
 				 </tr>
 				 <tr>
-				   <td class="griditem" ><br><span style="vertical-align: top;"><b>a dynamic sign</b> shows to use evacuation elevators</span></td>
-				   <td class="cent"><br><input class="main6" type=checkbox  name="griditem6" value="1" style="vertical-align: top;"></td>
-				   <td class="cent"><br><input class="main6" type=checkbox  name="griditem6" value="2" style="vertical-align: top;"></td>
-				   <td class="cent"><br><input class="main6" type=checkbox  name="griditem6" value="3" style="vertical-align: top;"></td>
-				   <td class="cent"><br><input class="main6" type=checkbox  name="griditem6" value="4" style="vertical-align: top;;"></td>
-				   <td class="cent"><br><input class="main6" type=checkbox  name="griditem6" value="5" style="vertical-align: top;"></td>
+				   <td class="griditema" ><span style="vertical-align: middle;"><b><b>F</b>. a dynamic sign</b> shows to use evacuation elevators from the refuge floor</span></td>
+				   <td class="cent"><input class="main6" type=checkbox  name="griditem6" value="1" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main6" type=checkbox  name="griditem6" value="2" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main6" type=checkbox  name="griditem6" value="3" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main6" type=checkbox  name="griditem6" value="4" style="vertical-align: top;;"></td>
+				   <td class="cent"><input class="main6" type=checkbox  name="griditem6" value="5" style="vertical-align: top;"></td>
 				 </tr>
 				</table>
+				<table style="float: right; width:20%"><tr><img class="picture12" src="pict/3D building.png"; /><tr></table>
 			</div>
-            <div class="text1"><b>2. Would you go to the refuge floor and wait for evacaution elevators, if you face following types of crowd on the stair?</b></div>
+            <div class="text1"><b>2. Would you go to the refuge floor and wait for evacaution elevators, if you face following types of crowd on the stair?</b> Note: Choosing case in which a stair is more crowded (e.g. case C), means that you will go to the refuge floor even if the stair is less crowded (case A and B). </div>
 			<div >
 <img class="picture1" src="pict/movie_speed_0.51.gif"><img class="picture2" id="clip1" src="pict/movie_speed_0.36.gif"><img class="picture2" id="clip1" src="pict/movie_speed_0.21.gif">
 				</div>
@@ -137,10 +140,10 @@ Do the following if you're using your customized build of modernizr (http://www.
 				<table class="grid" cellspacing="10">
 				 <tr>
 				   <td class="griditem4"><b>Position of the refuge floor</b></td>
-				   <td class="griditem2"><b>Going to the refuge floor regardless of crowd</b></td>
-					   <td class="griditem3a"><b>Stairs - Case A</b>								
-					   <td class="griditem3a"><b>Stairs - Case B</b>								
-					   <td class="griditem3a"><b>Stairs - Case C</b>
+				       <td class="griditem2"><b>Going to the refuge floor regardless of crowd</b></td>
+					   <td class="griditem3a"><b>Stairs - Case A<br>Going to the refuge floor</b>								
+					   <td class="griditem3a"><b>Stairs - Case B<br>Going to the refuge floor</b>								
+					   <td class="griditem3a"><b>Stairs - Case C<br>Going to the refuge floor</b>
 				   <td class="griditem2"><b>Staying on stairs regardless of crowd</b></td>
 				 </tr>
 				 <tr>
@@ -149,7 +152,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 				   <td class="cent"><input class="main4" type=radio  name="griditem4" value="2" style="vertical-align: top;"></td>
 				   <td class="cent"><input class="main4" type=radio  name="griditem4" value="3" style="vertical-align: top;"></td>
 				   <td class="cent"><input class="main4" type=radio  name="griditem4" value="4" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main4" type=radio  name="griditem4" value="5" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main6" type=radio  name="griditem4" value="5" style="vertical-align: top;"></td>
 				 </tr>
 				 <tr>
 				   <td class="griditem4"><span style="vertical-align: top;">Floor 35</span></td>
@@ -157,7 +160,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 				   <td class="cent"><input class="main5" type=radio  name="griditem5" value="2" style="vertical-align: top;"></td>
 				   <td class="cent"><input class="main5" type=radio  name="griditem5" value="3" style="vertical-align: top;"></td>
 				   <td class="cent"><input class="main5" type=radio  name="griditem5" value="4" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main5" type=radio  name="griditem5" value="5" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main6" type=radio  name="griditem5" value="5" style="vertical-align: top;"></td>
 				 </tr>
 				 <tr>
 				   <td class="griditem4"><span style="vertical-align: top;">Floor 55</span></td>
@@ -170,7 +173,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 				</table>
 
 			</div>
-            <div class="text1"><b>3. In case you came on the refuge floor, you face crowd in front of elevators, and you remember that the stair is also crowded, because you came from there. Would you go to the stair again? For example, you face Elevator Case 3 (250 people wait for elevators), and you know that on the stair there are people like on Stairs Case C. Would you go to the stair again?</b> Note: Choosing case in which a stair is more crowded (e.g. case C), means that you will redirect even if the stair is less crowded (case A and B). </div>		
+            <div class="text1"><b>3. In case you came on the refuge floor, you face crowd in front of elevators, and you know that the stair is also crowded. Would you go to the stair again? For example, you face Elevator Case 3 (250 people wait for elevators), and you know that on the stair there are people like on Stairs Case C. Would you go to the stair again?</b> Note: Choosing case in which a stair is more crowded (e.g. case C), means that you will go to the stair even if the stair is less crowded (case A and B).</div>		
 			<div >
 <img class="picture4" src="pict/movie_speed_0.51.gif"><img class="picture5" id="clip1" src="pict/movie_speed_0.36.gif"><img class="picture5" id="clip1" src="pict/movie_speed_0.21.gif">
 				</div>
@@ -196,24 +199,24 @@ Do the following if you're using your customized build of modernizr (http://www.
 					 </tr>
 					 <tr>
 					   <td class="griditem3"><span style="vertical-align: top;">Floor 15</span></td>
-					   <td class="cent"><input class="main12" type=radio  name="griditem12" value="1" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main12" type=radio  name="griditem12" value="2" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main12" type=radio  name="griditem12" value="3" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main12" type=radio  name="griditem12" value="4" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main12" type=radio  name="griditem12" value="1" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main12" type=radio  name="griditem12" value="2" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main12" type=radio  name="griditem12" value="3" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main12" type=radio  name="griditem12" value="4" style="vertical-align: top;"></td>
 					 </tr>
 					 <tr>
 					   <td class="griditem3"><span style="vertical-align: top;">Floor 35</span></td>
-					   <td class="cent"><input class="main13" type=radio  name="griditem13" value="1" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main13" type=radio  name="griditem13" value="2" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main13" type=radio  name="griditem13" value="3" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main13" type=radio  name="griditem13" value="4" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main13" type=radio  name="griditem13" value="1" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main13" type=radio  name="griditem13" value="2" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main13" type=radio  name="griditem13" value="3" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main13" type=radio  name="griditem13" value="4" style="vertical-align: top;"></td>
 					 </tr>
 					 <tr>
 					   <td class="griditem3"><span style="vertical-align: top;">Floor 55</span></td>
-					   <td class="cent"><input class="main14" type=radio  name="griditem14" value="1" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main14" type=radio  name="griditem14" value="2" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main14" type=radio  name="griditem14" value="3" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main14" type=radio  name="griditem14" value="4" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main14" type=radio  name="griditem14" value="1" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main14" type=radio  name="griditem14" value="2" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main14" type=radio  name="griditem14" value="3" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main14" type=radio  name="griditem14" value="4" style="vertical-align: top;"></td>
 					 </tr>
 					 <table class="grid" cellspacing="10">
 					 <tr>
@@ -229,24 +232,24 @@ Do the following if you're using your customized build of modernizr (http://www.
 					 </tr>
 					 <tr>
 					   <td class="griditem3"><span style="vertical-align: top;">Floor 15</span></td>
-					   <td class="cent"><input class="main15" type=radio  name="griditem15" value="1" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main15" type=radio  name="griditem15" value="2" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main15" type=radio  name="griditem15" value="3" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main15" type=radio  name="griditem15" value="4" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main15" type=radio  name="griditem15" value="1" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main15" type=radio  name="griditem15" value="2" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main15" type=radio  name="griditem15" value="3" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main15" type=radio  name="griditem15" value="4" style="vertical-align: top;"></td>
 					 </tr>
 					 <tr>
 					   <td class="griditem3"><span style="vertical-align: top;">Floor 35</span></td>
-					   <td class="cent"><input class="main16" type=radio  name="griditem16" value="1" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main16" type=radio  name="griditem16" value="2" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main16" type=radio  name="griditem16" value="3" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main16" type=radio  name="griditem16" value="4" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main16" type=radio  name="griditem16" value="1" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main16" type=radio  name="griditem16" value="2" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main16" type=radio  name="griditem16" value="3" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main16" type=radio  name="griditem16" value="4" style="vertical-align: top;"></td>
 					 </tr>
 					 <tr>
 					   <td class="griditem3"><span style="vertical-align: top;">Floor 55</span></td>
-					   <td class="cent"><input class="main17" type=radio  name="griditem17" value="1" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main17" type=radio  name="griditem17" value="2" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main17" type=radio  name="griditem17" value="3" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main17" type=radio  name="griditem17" value="4" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main17" type=radio  name="griditem17" value="1" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main17" type=radio  name="griditem17" value="2" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main17" type=radio  name="griditem17" value="3" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main17" type=radio  name="griditem17" value="4" style="vertical-align: top;"></td>
 					 </tr>
 					 
 					 <table class="grid" cellspacing="10">
@@ -263,24 +266,24 @@ Do the following if you're using your customized build of modernizr (http://www.
 					 </tr>
 					 <tr>
 					   <td class="griditem3"><span style="vertical-align: top;">Floor 15</span></td>
-					   <td class="cent"><input class="main18"  type=radio  name="griditem18" value="1" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main18"  type=radio  name="griditem18" value="2" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main18"  type=radio  name="griditem18" value="3" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main18"  type=radio  name="griditem18" value="4" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main18"  type=radio  name="griditem18" value="1" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main18"  type=radio  name="griditem18" value="2" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main18"  type=radio  name="griditem18" value="3" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main18"  type=radio  name="griditem18" value="4" style="vertical-align: top;"></td>
 					 </tr>
 					 <tr>
 					   <td class="griditem3"><span style="vertical-align: top;">Floor 35</span></td>
-					   <td class="cent"><input class="main19"  type=radio  name="griditem19" value="1" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main19"  type=radio  name="griditem19" value="2" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main19"  type=radio  name="griditem19" value="3" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main19"  type=radio  name="griditem19" value="4" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main19"  type=radio  name="griditem19" value="1" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main19"  type=radio  name="griditem19" value="2" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main19"  type=radio  name="griditem19" value="3" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main19"  type=radio  name="griditem19" value="4" style="vertical-align: top;"></td>
 					 </tr>
 					 <tr>
 					   <td class="griditem3"><span style="vertical-align: top;">Floor 55</span></td>
-					   <td class="cent"><input class="main20" type=radio  name="griditem20" value="1" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main20" type=radio  name="griditem20" value="2" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main20" type=radio  name="griditem20" value="3" style="vertical-align: top;"></td>
-					   <td class="cent"><input class="main20" type=radio  name="griditem20" value="4" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main20" type=radio  name="griditem20" value="1" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main20" type=radio  name="griditem20" value="2" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main20" type=radio  name="griditem20" value="3" style="vertical-align: top;"></td>
+					   <td class="cent1"><input class="main20" type=radio  name="griditem20" value="4" style="vertical-align: top;"></td>
 					 </tr>
 					 
 					</table>
@@ -301,8 +304,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 			</div><br>
 			<div id="LayoutDiv2"><b>Evacuation scenario - evacuation time presented</b></div>
 
-      		<div class="text1"><b>Note</b>: evacuation time of stairs and elevators are presented (e.g. on a panel or on your mobile device) during the trip. </div><br>
-			<div class="text1"><b>1. What should be the maximum evacuation time for elevators to choose them for evacuation? Stairs - case A</b></div>
+			<div class="text1"><b>1. What should be the maximum evacuation time for elevators to choose them for evacuation? Evacuation time of a stair presented. Stairs - case A</b></div>
       		<div class="well" style="float: left; width: 60%; height:204px; margin:0px 0px">
 			<br>
   				<b class="text">Floor 15<b><br><b class="text"> Elevators time:&nbsp&nbsp</b> <input id="ex7" style="width:40%;" data-slider-id='ex1Slider1' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp&nbsp[min]</b><br><br>
@@ -312,7 +314,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 			<div class="well" style="float: right; width: 40%; height:204px; margin:0px 0px">
 				<img id="clip3" src="pict/caseA.png"><img class="picture11" src="pict/movie_speed_0.51.gif">
 			</div>
-			<div class="text1"><b>2. What should be the maximum evacuation time for elevators to choose them for evacuation? Stairs - case B</b></div>
+			<div class="text1"><b>2. What should be the maximum evacuation time for elevators to choose them for evacuation? Evacuation time of a stair presented. Stairs - case B</b></div>
       		<div class="well" style="float: left; width: 60%; height:204px; margin:0px 0px">
 				<br class="text2">
   				<b class="text">Floor 15<b><br><b class="text">Elevators time:&nbsp&nbsp</b> <input id="ex10" style="width:40%;" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="30" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp&nbsp[min]</b><br class="text2"><br>
@@ -323,7 +325,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 				<img id="clip3" src="pict/caseB.png"><img class="picture11" src="pict/movie_speed_0.36.gif">
 			</div>
 			
-			<div class="text1"><b>3. What should be the maximum evacuation time for elevators to choose them for evacuation? Stairs - case C</b></div>
+			<div class="text1"><b>3. What should be the maximum evacuation time for elevators to choose them for evacuation? Evacuation time of a stair presented. Stairs - case C</b></div>
       		<div class="well" style="float: left; width: 60%; height:204px; margin:0px 0px">
 				<br class="text2">
   				<b class="text">Floor 15<b><br><b class="text">Elevators time:&nbsp&nbsp</b> <input id="ex13" style="width:40%;" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="40" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp&nbsp[min]</b><br class="text2"><br>
@@ -335,6 +337,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 			</div>
   </div>
 </div>
+<br><button type="button" style="float: right; margin:0px 12%" onClick="getValues()">Submit</button>
 <script type='text/javascript' src="js/jquery.min.js"></script>
     <script type='text/javascript' src="js/bootstrap-slider.js"></script>
     <script type='text/javascript'>

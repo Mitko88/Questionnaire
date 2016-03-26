@@ -17,6 +17,3 @@ span.dropt span {position: absolute; left: -9999px;
   /* clip: shape(top, right, bottom, left); NB 'rect' is the only available option */
 }
 
-.cent {
-	text-align: center;
-	}
