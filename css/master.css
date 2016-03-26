@@ -127,21 +127,26 @@ img, object, embed, video {
 	width: 7%;
 	font-size: 9px;
 	}
-.picture1 {
-	width:18.5%;
-	height:120px;
-	margin: 0px 0px 0px 28%;
+.griditem-img{
+	text-align: center;
+	width: 20%;
+	font-size: 9px;
 	}
+.picture1 {
+	width:30%;
+	height:22%;
+	margin: 0px 0px 0px 5px;
+}
 .picture2 {
-	width:18.5%;
-	height:120px;
+	width:30%;
+	height:22%;
 	margin: 0px 0px 0px 0.3%;
 }
 .picture4 {
 	width:14%;
 	height:100px;
 	margin: 0px 0px 0px 42%;
-	}
+}
 .picture5 {
 	width:14%;
 	height:100px;
@@ -168,7 +173,7 @@ img, object, embed, video {
 	 margin: 0px 0px 0px 1%;
 }
 .picture11{
-	 width:45%;	
+	 width:40%;	
 	 height:140px; 
 	 margin: 52px 0px 0px 1%;
 }
@@ -186,13 +191,15 @@ img, object, embed, video {
 	vertical-align: top;
 	}
 .text{
-	width: 20%;
+	width: 30%;
 	text-align: left;
 	font-size: 9px;
 
 }
 .text1{
 	font-size: 9px;
+	margin-top:10px;
+	min-height:100px;
 }
 .text2{
 	font-size: 25px;
@@ -311,15 +318,20 @@ img, object, embed, video {
 	width: 8%;
 	font-size: 11px;
 }
+.griditem-img {
+	text-align: center;
+	width: 20%;
+	font-size: 11px;
+}
 .picture1 {
-	width:18%;
-	height:160px;
-	margin: 0px 0px 0px 30%;
-	}
+	width:30%;
+	height:22%;
+	margin: 0px 0px 0px 5px;
+}
 .picture2 {
-	width:18%;
-	height:160px;
-	margin: 0px 0px 0px 0.3%;
+	width:30%;
+	height:22%;
+	margin: 0px 0px 0px 5px;
 }
 .picture4 {
 	width:15.5%;
@@ -360,7 +372,7 @@ img, object, embed, video {
 	 margin: 0px 0px 0px 1%;
 }
 .picture11{
-	 width:45%;	
+	 width:40%;	
 	 height:164px; 
 	 margin: 28px 0px 0px 1%;
 }
@@ -369,12 +381,14 @@ img, object, embed, video {
 	height:250px;
 }
 .text{
-	width: 20%;
+	width: 30%;
 	text-align: left;
 	font-size: 11px;
 }
 .text1{
 	font-size: 11px;
+	margin-top:10px;
+	min-height:100px;
 }
 .text2{
 	font-size: 22px;
@@ -450,43 +464,43 @@ img, object, embed, video {
 	text-align: left;
 	width: 40%;
 	font-size: 13px;
-	padding-top: 2.5%;
-	}
+	/* padding-top: 2.5%; */
+}
 .griditem1 {
 	text-align: center;
 	width: 40%;
 	font-size: 13px;
-	}
+}
 .griditem2 {
 	text-align: center;
 	width: 12%;
 	font-size: 13px;
-	}
+}
 .griditem2 {
 	text-align: center;
 	width: 10%;
 	font-size: 13px;
-	}
+}
 .griditem2b {
 	text-align: center;
 	width: 15%;
 	font-size: 13px;
-	}
+}
 .griditem3 {
 	text-align: center;
 	width: 16%;
 	font-size: 13px;
-	}
+}
 .griditem3a{
 	text-align: center;
 	width: 15%;
 	font-size: 13px;
-	}
+}
 .griditem3b {
 	text-align: center;
 	width: 10%;
 	font-size: 13px;
-	}
+}
 .griditem4 {
 	text-align: left;
 	width: 15%;
@@ -502,21 +516,26 @@ img, object, embed, video {
 	width: 8%;
 	font-size: 13px;
 }
+.griditem-img {
+	text-align: center;
+	width: 20%;
+	font-size: 13px;
+}
 .picture1 {
-	width:13.5%;
-	height:200px;
-	margin: 0px 0px 0px 34%;
-	}
+	width:30%;
+	height:22%;
+	margin: 0px 0px 0px 5px;
+}
 .picture2 {
-	width:13.5%;
-	height:200px;
-	margin: 0px 0px 0px 5%;
+	width:30%;
+	height:22%;
+	margin: 0px 0px 0px 5px;
 }
 .picture4 {
-	width:15%;
-	height:200px;
-	margin: 0px 0px 0px 43.5%;
-	}
+	width:30%;
+	height:22%;
+	margin: 0px 0px 0px 5px;
+}
 .picture5 {
 	width:15%;
 	height:200px;
@@ -555,19 +574,21 @@ img, object, embed, video {
 .cent {
 	text-align: center;
 	vertical-align: top;
-		padding-top: 2.5%;
-	}
+	/* padding-top: 2.5%; */
+}
 .cent1 {
 	text-align: center;
 	vertical-align: top;
-	}
+}
 .text{
-	width: 20%;
+	width: 30%;
 	text-align: left;
 	font-size: 13px;
 }
 .text1{
 	font-size: 13px;
+	margin-top:10px;
+	min-height:100px;
 }
 .text2{
 	font-size: 13px;
@@ -592,3 +613,45 @@ img, object, embed, video {
   height:190px;
 }
 }
+
+/* #Region Custom code */
+	/* Example 1 custom styles */
+	#ex1Slider .slider-selection {
+		background: #BABABA;
+	}
+	/* Example 3 custom styles */
+	#RGB {
+		height: 20px;
+		background: rgb(128, 128, 128);
+	}
+	#RC .slider-selection {
+		background: #FF8282;
+	}
+	#RC .slider-handle {
+		background: red;
+	}
+	#GC .slider-selection {
+		background: #428041;
+	}
+	#GC .slider-handle {
+		background: green;
+	}
+	#BC .slider-selection {
+		background: #8283FF;
+	}
+	#BC .slider-handle {
+		border-bottom-color: blue;
+	}
+	#R, #G, #B {
+		width: 300px;
+	}
+	.well{
+		margin-bottom: 20px !important;
+	}
+	.question-section{
+		display:inline-block;
+	}
+	.grid{
+		min-height:100px;
+	}
+/* #Endregion */
